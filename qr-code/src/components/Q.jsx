@@ -21,6 +21,7 @@ export const Qr = () => {
   function downloadQR() {
     fetch(img)
       .then((response) => response.blob())
+      console.log(blob)
       .then((blob) => {
         const link = document.createElement("a");
         link.href = URL.createObjectURL(blob);

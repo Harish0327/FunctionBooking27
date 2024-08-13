@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Main{
+    padding: 10px;
+    background-color: antiquewhite;
+   display: flex;
+   justify-content: flex-end;
+}
+.Main li{
+    list-style: none;
+    text-decoration: none;
+display: inline-block;
+padding: 20px;
+   
+}
+.Main a{
+
+    text-decoration: none;
+    
+}
